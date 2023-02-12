@@ -1,0 +1,204 @@
+.gallery-image img {
+    width: 50%;
+}
+
+header {
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+header > * {
+    text-align: center;
+}
+
+h1{
+    font-size: small;
+}
+h2{
+    font-size: xx-small;
+}
+
+header nav ul {
+
+display: block;
+margin: 0 auto;
+text-align: center;
+width: fit-content;
+
+}
+
+header nav ul li {
+
+display: inline-block;
+padding: 16px 16px;
+
+}
+hr {
+
+    color: #4f5663;
+    border-width: 2px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    overflow: hidden;
+    }
+nav ul li a {
+
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 3px;
+color: #172029;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+footer {
+
+width: calc(100% - 80px);
+padding: 40px 40px;
+background-color: rgb(197, 197, 90);
+margin-top: 20px;
+overflow: hidden;
+
+}
+
+.footer_aeg {
+
+width: fit-content;
+float: left;
+padding-left: 0px;
+
+}
+.footer_aeg li {
+
+display: block;
+padding: 0 0 10px 0;
+
+}
+.footer_aeg li p {
+
+font-family: "Quicksand";
+font-weight: 300;
+font-size: 18px;
+letter-spacing: 2px;
+color: #ffffff;
+
+}
+.footer-sm {
+
+width: 52px;
+float: right;
+
+}
+
+.footer-sm img {
+
+width: 100%;
+margin-bottom: 10px;
+
+}
+
+/*PÕHIOSA KUJUNDAMINE*/
+.banner {
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 50px;
+}
+.banner img {
+    width: 50%;
+}
+.meist{
+    width: 100%;
+    padding: 50px;
+}
+
+.meist-h2 {
+font-family: "Quicksand";
+font-weight: 600;
+font-size: 28px;
+letter-spacing: 2px;
+padding: 10px;
+color: #3a383d;
+text-align: left;
+
+}
+.meist_tekst {
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.toit{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+}
+
+.meist_text {
+    background-color: aqua;
+    float: left;
+    width: 50%;
+    
+}
+
+.pilt {
+    border-radius: 50%;
+    padding: 80px;
+}
+
+.gallery-image{
+    float: left;
+    width: 32%;
+}
+.disclaimer {
+    display: block;
+}
+
+.disclaimer2 {
+    display:none;
+}
+
+
+@media only screen and (min-width: 950px) {
+    .banner img {
+        width: 50%;
+    }
+
+    h1{
+        font-size: larger;
+    }
+    h2{
+        font-size: xx-large;
+    }
+
+    nav ul li a {
+
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 3px;
+        color: #172029;
+        text-decoration: none;
+        
+        }
+
+    .disclaimer {
+        text-align: center;
+        display: none;
+    }
+    .toit:after{
+        display: block;
+        justify-content: space-around;
+    }
+    .disclaimer2 {
+        display: block;
+        width: 50%;
+        text-align: left;
+    }
+
+}
